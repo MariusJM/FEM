@@ -52,3 +52,22 @@ if (friendAtParty === 0){
     console.log("DISCO party");
 }
 // you can skip last else block
+
+let friends = 0;
+while(friends < 10){
+    friends++;
+    
+}
+console.log(`Friends at the party ${friends}`);
+
+let animals = 0;
+for (let i = 0; i < 10; i++){
+    animals++;
+}
+console.log(`Number of animals is ${animals}`)
+
+let partyAnimals = 0;
+for (let i = 10; i > 0; i--){
+    animals++;
+}
+console.log(`Number of party animals is ${partyAnimals}`)
