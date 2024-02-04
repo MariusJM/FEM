@@ -114,3 +114,87 @@ let chirp = () => {
   bark();
   meow();
   chirp();
+
+  // SCOPE
+
+function addFive(number) {
+    const someVariable = "you can't see me outside this function";
+    console.log(someVariable);
+    return number + 5;
+}
+  
+  addFive(10);
+  // out of scope
+  // console.log(someVariable); //ReferenceError: someVariable is not defined
+
+let friendsAtYourParty = 0;
+for (let i = 0; i <= 10; i++) {
+  friendsAtYourParty++;
+}
+// out of scope - outside of {}
+// console.log(i); //ReferenceError: i is not defined
+
+// examples to explore
+`
+const A = "A";
+let F;
+
+function doStuff(B) {
+  console.log(B);
+  const C = "C";
+  let H = "H";
+  if (1 + 1 === 2) {
+    const D = "D";
+    H = "something else";
+  }
+  console.log(D);
+  console.log(H);
+  F = "F";
+}
+
+let E = 0;
+while (E < 3) {
+  E++;
+  console.log(A);
+  const G = "G";
+}
+console.log(E);
+console.log(G);
+
+doStuff("B");
+console.log(B);
+console.log(C);
+console.log(F);
+`
+
+`
+const A = "A";
+let F;
+
+function doStuff(B) {
+  console.log(B); // works, B parameter is still in scope
+  const C = "C";
+  let H = "H";
+  if (1 + 1 === 2) {
+    const D = "D";
+    H = "something else";
+  }
+  console.log(D); // does not work, D was declared in that if statement block
+  console.log(H); // works, H was declared outside the if statement
+  F = "F";
+}
+
+let E = 0;
+while (E < 3) {
+  E++;
+  console.log(A); // works, the outter block (called the global scope) is still in scope
+  const G = "G";
+}
+console.log(E); // works, E was declared outside the whie loop
+console.log(G); // does not work, declared inside the while loop and it's over
+
+doStuff("B");
+console.log(B); // does not work, the B parameter expires after the function call
+console.log(C); // does not work, C was declared inside the function and the function is over
+console.log(F); // works, F was declared in the global scope
+`
