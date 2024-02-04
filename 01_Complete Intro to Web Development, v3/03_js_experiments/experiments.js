@@ -365,3 +365,72 @@ console.log(this.scrollY);
 console.log(window.scrollY);
 console.log(scrollY);
 
+//ARRAYS
+
+const daysOfTheWeek = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+  console.log(daysOfTheWeek);
+  console.log(daysOfTheWeek[0]);
+  console.log(daysOfTheWeek[1]);
+  console.log(daysOfTheWeek[6]);
+
+
+const primeNumbers = [1, 2, 3, 5, 7, 11, 13, 17];
+console.log(primeNumbers.length);
+console.log(primeNumbers.join(" |?!| "));
+
+
+const courses = [
+    { teacher: "Will Sentance", course: "JavaScript: The Hard Parts" },
+    { teacher: "Sarah Drasner", course: "Intro to Vue" },
+    { teacher: "Brian Holt", course: "Complete Intro to React" },
+    { teacher: "Steve Kinney", course: "Build Your Own Programming Language" },
+    { teacher: "Scott Moss", course: "Intro to Node.js" },
+  ];
+  
+  console.log(courses.length);
+  courses.push({ teacher: "Jen Kramer", course: "Getting Started with CSS" });
+  
+  console.log(courses.length);
+  console.log(courses);
+  
+  courses[2] = { teacher: "Brian Holt", course: "Complete Intro to Databases" };
+  courses[2].course = "Complete Intro to Databases";
+  console.log(courses);
+
+  console.log(courses.length);
+  const jen = courses.pop();
+  console.log(jen)
+
+  console.log(courses.length);
+
+
+
+// Iterating through arrays
+const cities = [
+    "Seattle",
+    "San Francisco",
+    "Salt Lake City",
+    "Amsterdam",
+    "Hong Kong",
+  ];
+  console.log("-------------------------------------")
+  // method 1
+  for (let i = 0; i < cities.length; i++) {
+    console.log(i, cities[i]);
+  }
+  console.log("-------------------------------------")
+  // method 2
+  let timesCalled = 0;
+  cities.forEach(function (city) {
+    console.log(timesCalled, city);
+    timesCalled++;
+  });
+  console.log("-------------------------------------")
