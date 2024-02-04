@@ -248,3 +248,89 @@ console.log(string.substring(14))
 
 // want to know how many milliseconds have elapsed since Jan 1 1970?
 console.log(Date.now());
+
+
+
+// OBJECTS
+const person = {
+    name: "Marius Michailovskis",
+    city: "Seattle",
+    state: "LT",
+    favoriteFood: "🌮",
+    wantsTacosRightNow: true,
+    numberOfTacosWanted: 100,
+  };
+console.log(person);
+console.log(person.name);
+console.log(person.favoriteFood);
+console.log(person.state);
+console.log(person.numberOfTacosWanted);
+
+console.log(person["name"]); // same as the line above; prefer using the other one
+const propertyName = "wantsTacosRightNow"
+console.log(person[propertyName]);
+
+
+const person1 = {
+    name: "Angie",
+    ageRange: "25-35",
+  };
+  const person2 = {
+    name: "Francesca",
+    ageRange: "65-75",
+  };
+  
+  function suggestMusic(person) {
+    if (person.ageRange === "25-35") {
+      console.log("We think you will like Daft Punk.");
+    } else if (person.ageRange === "65-75") {
+      console.log("You are obviously going to like Johnny Cash.");
+    } else {
+      console.log(
+        "Uh, maybe try David Bowie? Everyone likes David Bowie, right?"
+      );
+    }
+  }
+  
+  suggestMusic(person1);
+  suggestMusic(person2);
+
+
+  // OBJECTS can have functions inside
+
+  const dog = {
+    name: "dog",
+    speak() { // this is a function-method inside of an object speak: function(){} also works
+      console.log("woof woof");
+    },
+  };
+  
+  dog.speak();
+
+
+  //Objects can as well have nested objects inside of them.
+  const me = {
+    name: {
+      first: "Marius",
+      last: "Michailovskis",
+    },
+    location: {
+      city: "Vilnius",
+      state: "LT",
+      country: "LT",
+    },
+  };
+  
+  console.log(me.name.first);
+  console.log(me.location.state);
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+console.log(console)
+
+console.info("information")
+console.error("You've got an error")
+console.log("This is a log")
+console.log(Math)
+console.log(Math.PI)
+console.log(Math.E)
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
