@@ -8,11 +8,6 @@ I am currently immersed in the course Complete Intro to Web Dev v3 and have reac
 
 Feel free to explore the code, experiments, and assignments within this repository. Your feedback and suggestions are highly appreciated!
 
-
-
-
-
-
 ### Completed Or In Progress Courses content
 
 <details>
@@ -21,12 +16,12 @@ Feel free to explore the code, experiments, and assignments within this reposito
 <details>
   <summary>&check; HTML</summary>
   <ul style="list-style: none; padding-left: 20px;">
-        <li">&check; Tags</li>
-        <li">&check; Types of Tags</li>
-        <li">&check; Attributes</li>
-        <li">&check; Organizing HTML</li>
-        <li">&check; Head and Meta Tags</li>
-        <li">&check; HTML Project</li>
+        <li>&check; Tags</li>
+        <li>&check; Types of Tags</li>
+        <li>&check; Attributes</li>
+        <li>&check; Organizing HTML</li>
+        <li>&check; Head and Meta Tags</li>
+        <li>&check; HTML Project</li>
   </ul>
 </details>
 
@@ -92,7 +87,21 @@ Feel free to explore the code, experiments, and assignments within this reposito
 </details>
 </details>
 
-### Future lectures
+***
+
+### Project Previews
+
+
+
+#### [HTML project](https://htmlpreview.github.io/?https://github.com/MariusJM/FEM/blob/main/01_Complete%20Intro%20to%20Web%20Development%2C%20v3/01_HTML/index.html)
+
+#### HTML and CSS project
+[<img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters.png" alt="Coffee Masters" width="300"/>](https://htmlpreview.github.io/?https://github.com/MariusJM/FEM/blob/main/01_Complete%20Intro%20to%20Web%20Development%2C%20v3/02_CSS/coffee/index_2.html).  
+[click on the image for live preview]
+
+***
+
+### TODO
 
 <details>
   <summary>Getting Started with CSS</summary>
@@ -128,3 +137,6 @@ Feel free to explore the code, experiments, and assignments within this reposito
     <li">&bull; ...</li>
   </ul>
 </details>
+
+...
+***
