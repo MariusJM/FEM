@@ -4,7 +4,7 @@ Welcome to my learning journey as I navigate through the Beginner Learning Path 
 
 ## Current progress
 
-I am currently immersed in the course Complete Intro to Web Dev v3 and have reached the "Putting It All Together" section with a focus on the project. Follow my journey through the intricacies of HTML, CSS, and JavaScript as I tackle real-world projects and enhance my web development skills.
+I am currently immersed in the course Complete Intro to Web Dev v3. Follow my journey through the intricacies of HTML, CSS, and JavaScript as I tackle real-world projects and enhance my web development skills.
 
 Feel free to explore the code, experiments, and assignments within this repository. Your feedback and suggestions are highly appreciated!
 
