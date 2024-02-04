@@ -165,9 +165,7 @@ doStuff("B");
 console.log(B);
 console.log(C);
 console.log(F);
-`
 
-`
 const A = "A";
 let F;
 
@@ -198,3 +196,55 @@ console.log(B); // does not work, the B parameter expires after the function cal
 console.log(C); // does not work, C was declared inside the function and the function is over
 console.log(F); // works, F was declared in the global scope
 `
+
+// Builtins
+
+const sentence2 = "ThIs HaS wEiRd CaSiNg On It";
+const lowerCaseSentence2 = sentence2.toLowerCase();
+const upperCaseSentence2 = sentence2.toUpperCase();
+let sentence3 = "ThIs HaS wEiRd CaSiNg On It".toLowerCase;
+let sentence4 = "ThIs HaS wEiRd CaSiNg On It".toUpperCase;
+console.log(lowerCaseSentence2);
+console.log(upperCaseSentence2);
+console.log(sentence3);
+console.log(sentence4);
+
+
+// want to round a number? use Math!
+const number = 5.3;
+const roundedNumber = Math.round(number);
+//round - to the nearest int
+//floor - always round down
+//ceil - always rounds up
+//math.random()
+console.log(number);
+console.log(roundedNumber);
+
+
+
+// want to see if a string contains another string?
+const testStringOne = "The quick brown fox jumps over the lazy dog";
+const testStringTwo =
+      "Mirror, mirror on the wall, don't say it cause I know I'm cute";
+const testStringThree = "execute";
+      const stringToLookFor = "cute";
+
+console.log(testStringOne.includes(stringToLookFor));
+console.log(testStringTwo.includes(stringToLookFor));
+console.log(testStringThree.includes(stringToLookFor));
+
+
+
+let string = "hi my name is Marius"
+console.log(string.substring(0))
+console.log(string.substring(1))
+console.log(string.substring(3, 5))
+console.log(string.substring(3, 14))
+console.log(string.substring(14))
+// https://developer.mozilla.org/en-US/
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+
+
+// want to know how many milliseconds have elapsed since Jan 1 1970?
+console.log(Date.now());
