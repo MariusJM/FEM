@@ -334,3 +334,34 @@ console.log(Math)
 console.log(Math.PI)
 console.log(Math.E)
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+//CONTEXT
+const personalInformation = {
+    name: {
+      first: "Marius",
+      last: "Michailovkis",
+    },
+    location: {
+      streetNumber: 500,
+      street: "Fakestreet",
+      city: "Vilnius",
+      state: "LT",
+      zipCode: 55555,
+      country: "LT",
+    },
+    getAddress() {
+      return `${this.name.first} ${this.name.last}
+  ${this.location.streetNumber} ${this.location.street}
+  ${this.location.city}, ${this.location.state} ${this.location.zipCode}
+  ${this.location.country}`;
+    },
+  };
+  
+console.log(personalInformation.getAddress());
+
+console.log(this === window);
+console.log(this.scrollY);
+console.log(window.scrollY);
+console.log(scrollY);
+
