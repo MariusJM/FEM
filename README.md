@@ -2,13 +2,17 @@
 
 Welcome to my learning journey as I navigate through the Beginner Learning Path to become a career-ready web developer! This repository serves as a comprehensive collection of my example code, experiments, exercises, and assignments from the courses I am undertaking.
 
+***
+
 ## Current progress
 
 I am currently immersed in the course Complete Intro to Web Dev v3. Follow my journey through the intricacies of HTML, CSS, and JavaScript as I tackle real-world projects and enhance my web development skills.
 
 Feel free to explore the code, experiments, and assignments within this repository. Your feedback and suggestions are highly appreciated!
 
-### Completed Or In Progress Courses content
+***
+
+### Completed Or In Progress Courses
 
 <details>
   <summary>Complete Intro to Web Development, v3 [In progress] </summary>
@@ -96,7 +100,7 @@ Feel free to explore the code, experiments, and assignments within this reposito
 #### [HTML project](https://htmlpreview.github.io/?https://github.com/MariusJM/FEM/blob/main/01_Complete%20Intro%20to%20Web%20Development%2C%20v3/01_HTML/index.html)
 
 #### HTML and CSS project
-[<img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters.png" alt="Coffee Masters" width="300"/>](https://htmlpreview.github.io/?https://github.com/MariusJM/FEM/blob/main/01_Complete%20Intro%20to%20Web%20Development%2C%20v3/02_CSS/coffee/index_2.html).  
+[<img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters.png" alt="Coffee Masters" width="400"/>](https://htmlpreview.github.io/?https://github.com/MariusJM/FEM/blob/main/01_Complete%20Intro%20to%20Web%20Development%2C%20v3/02_CSS/coffee/index_2.html).  
 [click on the image for live preview]
 
 ***
